@@ -95,18 +95,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-h1 {
-  color: #faebd7;
-  font-family: 'Special Elite', cursive;
-  text-align: center;
-  text-shadow: purple -2px 2px;
-}
-
-p, ul {
-  margin: 0 auto;
-  width: 33.33%;
-}
-
 body {
   background-color: #131013;
   color: #ccc;
@@ -119,6 +107,23 @@ footer {
   margin-top: 1em;
 }
 
+h1 {
+  color: #faebd7;
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  text-shadow: purple -2px 2px;
+}
+
+iframe {
+  display: block;
+  margin: 1em auto;
+}
+
+p, ul {
+  margin: 0 auto;
+  width: 33.33%;
+}
+
 .block-gif {
   display: block;
   margin: 1em auto;
@@ -126,9 +131,6 @@ footer {
 
 .footer-item {
   margin: 1em;
-}
-.footer-item img {
-  width: 50px;
 }
 
 .header-container {
@@ -152,6 +154,29 @@ footer {
   width: 100%;
 }
 
+.scary-text {
+  font-family: 'Special Elite', cursive;
+}
+
+.store-container {
+  display: flex;
+  justify-content: center;
+  margin: 1em auto;
+  width: 33.33%;
+}
+.store-item img {
+  margin: 0 1em;
+  width: 50px;
+}
+.store-item.itch img {
+  margin-top: 10px;
+  width: 100px;
+}
+
+.title-image {
+  display: block;
+  margin: 1em auto;
+}
 
 /* ==========================================================================
    Helper classes
