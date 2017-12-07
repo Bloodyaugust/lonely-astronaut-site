@@ -102,6 +102,10 @@ body {
   font-size: 22px;
   min-width: 480px;
 }
+body::after{
+  position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
+  content:url(../img/SpaceColorfulBackground2.png);
+}
 
 footer {
   text-align: center;
