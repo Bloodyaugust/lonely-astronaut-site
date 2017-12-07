@@ -98,6 +98,9 @@ textarea {
 a {
   color: teal;
 }
+a:link {
+  color: teal;
+}
 
 body {
   background-color: #131013;
