@@ -100,11 +100,13 @@ body {
   color: #ccc;
   font-family: 'Roboto', sans-serif;
   font-size: 22px;
+  min-width: 480px;
 }
 
 footer {
   text-align: center;
   margin-top: 1em;
+  min-width: 480px;
 }
 
 h1 {
@@ -112,6 +114,7 @@ h1 {
   font-family: 'Special Elite', cursive;
   text-align: center;
   text-shadow: purple -2px 2px;
+  min-width: 480px;
 }
 
 iframe {
@@ -119,14 +122,19 @@ iframe {
   margin: 1em auto;
 }
 
-p, ul {
+ul {
   margin: 0 auto;
-  width: 33.33%;
+  width: 440px;
+}
+
+li {
+  padding-right: 20px;
 }
 
 .block-gif {
   display: block;
   margin: 1em auto;
+  margin-left: -40px;
 }
 
 .footer-item {
@@ -162,6 +170,7 @@ p, ul {
   display: flex;
   justify-content: center;
   margin: 1em auto;
+  min-width: 480px;
   width: 33.33%;
 }
 .store-item img {
@@ -176,6 +185,9 @@ p, ul {
 .title-image {
   display: block;
   margin: 1em auto;
+  max-width: 659px;
+  min-width: 480px;
+  width: 100vw;
 }
 
 /* ==========================================================================
