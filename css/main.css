@@ -96,10 +96,10 @@ textarea {
    ========================================================================== */
 
 a {
-  color: teal;
+  color: teal !important;
 }
 a:link {
-  color: teal;
+  color: teal !important;
 }
 
 body {
