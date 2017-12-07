@@ -104,7 +104,7 @@ body {
 }
 body::after{
   position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
-  content:url(http://res.cloudinary.com/syntactic-sugar-studio/image/upload/v1512615113/SpaceColorfulBackground2_ebim8p.png);
+  content:url(http://res.cloudinary.com/syntactic-sugar-studio/image/upload/v1512615973/SpaceColorfulBackground2_drbrtc.png);
 }
 
 footer {
