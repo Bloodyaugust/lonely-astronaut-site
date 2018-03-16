@@ -134,6 +134,10 @@ iframe {
   margin: 1em auto;
   width: 320px;
 }
+iframe.humble-widget {
+  height: 150px;
+  width: 320px;
+}
 
 ul {
   box-sizing: border-box;
@@ -221,6 +225,10 @@ li {
     height: 405px;
     width: 720px;
   }
+  iframe.humble-widget {
+    height: 270px;
+    width: 720px;
+  }
 
   ul {
     font-size: 22px;
@@ -235,6 +243,9 @@ li {
   iframe {
     height: 607.5px;
     width: 1080px;
+  }
+  iframe.humble-widget {
+    height: 270px;
   }
 }
 
