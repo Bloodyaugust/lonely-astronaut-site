@@ -135,7 +135,7 @@ iframe {
   width: 320px;
 }
 iframe.humble-widget {
-  height: 150px;
+  height: 330px;
   width: 320px;
 }
 
@@ -226,7 +226,7 @@ li {
     width: 720px;
   }
   iframe.humble-widget {
-    height: 270px;
+    height: 330px;
     width: 720px;
   }
 
@@ -245,7 +245,7 @@ li {
     width: 1080px;
   }
   iframe.humble-widget {
-    height: 270px;
+    height: 330px;
   }
 }
 
